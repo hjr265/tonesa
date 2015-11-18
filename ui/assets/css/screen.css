@@ -1,0 +1,61 @@
+html,
+body {
+	height: 100%;
+}
+body {
+	background: url('../images/agsquare.png');
+}
+
+textarea {
+	border-radius: 0 !important;
+}
+
+.wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+#uploadContent {
+	position: relative;
+	text-align: center;
+	background: #000 url('../images/simple_dashed.png');
+	color: #fff;
+}
+#uploadContent .throbber {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+#uploadContent .imageWrap {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	min-width: 100px;
+}
+#uploadContent .imageWrap .throbber {
+	width: 100px;
+	margin-left: -100px;
+}
+#uploadContent .imageWrap .touch {
+	position: absolute;
+	width: 0;
+	height: 0;
+	margin: -2px 0 0 -2px;
+	border: 2px solid red;
+	border-radius: 100%;
+	background: #fff;
+}
+
+#messages {
+	margin: 24px 0;
+	padding: 0 4px;
+	overflow-y: auto;
+}
+
+.dz-preview {
+	display: none;
+}
